@@ -16,6 +16,21 @@ class Gamer:
     def get_game(self):
         return self.game 
     
+    def get_id(self):
+        return self.id
+    
+    def get_hits_of_50(self):
+        return self.hits_of_50
+    
+    def get_hits_of_12(self):
+        return self.hits_of_12
+    
+    def get_common_values_of_50(self):
+        return self.common_values_of_50
+    
+    def get_common_values_of_12(self):
+        return self.common_values_of_12
+    
     def set_hits_of_50(self, hits):
         self.hits_of_50 = hits
 
@@ -26,7 +41,9 @@ class Gamer:
         self.common_values_of_50 = common_values_of_50
 
     def set_common_values2(self, common_values_of_12):
-        self.common_values2 = common_values_of_12
+        self.common_values_of_12 = common_values_of_12
+
+    
         
         
 
